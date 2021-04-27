@@ -5,7 +5,7 @@ def informations():
     under_title = input("Le sous-titre : ").capitalize()
     slogan = input("Le slogan optionnel : ").capitalize()
     resum = input("Le résumé du projet : ").capitalize()
-    inputs = (f"{title}\n{under_title}\n{slogan}\n{resum}")
+    inputs = (f"##{title}\n#{under_title}\n{slogan}\n{resum}")
     return inputs
    
 
@@ -13,7 +13,6 @@ def informations():
 def creating_readme():
     with open("README.md", "w") as file:
         file.write(informations())
-        print(green('hello', ['bold', 'underlined']))
         file.close()
         
 creating_readme()
