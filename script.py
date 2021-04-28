@@ -5,25 +5,44 @@ def informations():
     under_title = input("Le sous-titre : ").capitalize()
     slogan = input("Le slogan optionnel : ").capitalize()
     resum = input("Le résumé du projet : ").capitalize()
-    inputs = (f"<b>{title}</b><br>{under_title}<br>{slogan}<br>{resum}<br>")
+    inputs = (f"<b><h1>{title}</h1></b><br><h2>{under_title}</h2><br>{slogan}<br>{resum}<br>")
+    
     return inputs
-   
+
+def plus():
+    print("Existe-t-il des auteurs ? Si oui, indiquez combien.")
+    auteurs = input(int())
+    return int(auteurs)
+
+def auteurs():
+    auteur = input("Indiquez le prénom et nom de l'auteur : ").title()
+    entreprise = input("Indiquez son entreprise : ").capitalize()
+    auteur_complet = str(f"{auteur} travaillant au sein de l'entreprise {entreprise}.")
+    return auteur_complet
+
+def auteur_final():
+    result = plus()
+    i = 1
+    while i <= result:
+        i += 1
+        return auteurs()
 
 
 def creating_readme():
     with open("README.md", "w") as file:
         file.write(informations())
+        file.write(auteur_final())
         file.close()
         
 creating_readme()
 
-def demarrage():
-    prerequis = input("Pré-requis pour l'installation")
+# def demarrage():
+    # prerequis = input("Pré-requis pour l'installation")
     
-def plus():
-    Auteurs
-# Liste des auteurs, avec leur titre et l’entreprise pour laquelle ils ou elles travaillent. Les contributeurs peuvent être énumérés à la suite ou dans un document séparé, exemple CONTRIBUTING.md.
-    License
+
+        
+    # Liste des auteurs, avec leur titre et l’entreprise pour laquelle ils ou elles travaillent. Les contributeurs peuvent être énumérés à la suite ou dans un document séparé, exemple CONTRIBUTING.md.
+    # License
 # Traite de la licence d’utilisation permise, ou non, principalement dans les projets publics.
 # Autres éléments
 # Outre les éléments clés, on peut également inclure les informations suivantes :
