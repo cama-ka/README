@@ -1,11 +1,11 @@
-from simple_colors import *
+
 
 def informations():
     title = input("Tape le nom de ton programme : ").capitalize()
     under_title = input("Le sous-titre : ").capitalize()
     slogan = input("Le slogan optionnel : ").capitalize()
     resum = input("Le résumé du projet : ").capitalize()
-    inputs = (f"##{title}\n#{under_title}\n{slogan}\n{resum}")
+    inputs = (f"<b>{title}</b>\n{under_title}\n{slogan}\n{resum}")
     return inputs
    
 
@@ -19,9 +19,11 @@ creating_readme()
 
 def demarrage():
     prerequis = input("Pré-requis pour l'installation")
-# Auteurs
+    
+def plus():
+    Auteurs
 # Liste des auteurs, avec leur titre et l’entreprise pour laquelle ils ou elles travaillent. Les contributeurs peuvent être énumérés à la suite ou dans un document séparé, exemple CONTRIBUTING.md.
-# License
+    License
 # Traite de la licence d’utilisation permise, ou non, principalement dans les projets publics.
 # Autres éléments
 # Outre les éléments clés, on peut également inclure les informations suivantes :
