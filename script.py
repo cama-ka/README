@@ -5,7 +5,7 @@ def informations():
     under_title = input("Le sous-titre : ").capitalize()
     slogan = input("Le slogan optionnel : ").capitalize()
     resum = input("Le résumé du projet : ").capitalize()
-    inputs = (f"<b>{title}</b>\n{under_title}\n{slogan}\n{resum}")
+    inputs = (f"<b>{title}</b><br>{under_title}<br>{slogan}<br>{resum}<br>")
     return inputs
    
 
