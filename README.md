@@ -1,1 +1,1 @@
-<b><h2>Nom du programme</h2></b><br><h3></h3><br><br>Résumé du projet<br><br>Merci à : </br> l'Karla Camarena travaillant au sein de l'entreprise .
+<b><h2>Nom du programme</h2></b><br><h3>Sous-titre</h3><br><br>Ceci est un résumé<br><br>Merci à : </br> l'Karla Camarena travaillant au sein de l'entreprise Intercorp.
