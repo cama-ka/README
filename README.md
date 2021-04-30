@@ -1,1 +1,5 @@
-## Creer un readme facilement<br> ### Ne plus se préoccuper de la mise en page<br> <br>Ce programme propose à l'utilisateur de remplir un formulaire en suivant des instructions simples, créant un fichier readme.md automatiquement pour son application. <br>
+## Creer son readme
+### Fichier .md
+ Créé ton readme facilement !
+ Le programme permet de créer un readme en suivant les indications qui s'affichent sur la console. le fichier readme.md est automatiquement créé et mis en page selon les réponses utilisateur.
+* Installer python3.
