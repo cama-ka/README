@@ -17,7 +17,7 @@ def prerequis():
     prerequis_infos = (f"* {pre_info}\n")
     return prerequis_infos
 
-def compte(variable, func):
+def compte(titre,variable, func):
     print(f"Combien {variable} avez-vous à notifier ?")
     while True:
         try:
@@ -27,6 +27,7 @@ def compte(variable, func):
                 i += 1
                 response = func()
                 with open("README.md","a") as file:
+                    file.write(titre)
                     file.write(response)
                     file.close()
             break
@@ -39,8 +40,8 @@ def main():
     with open("README.md","w") as file:
         file.write(informations())
         file.close()
-    compte("de pré-requis", prerequis)
-    compte("d' auteurs", auteurs)
+    compte(f"### Pré-requis \n","de pré-requis", prerequis)
+    compte(f"### Auteurs \n","d' auteurs", auteurs)
     print("Le fichier est terminé.")
             
 if __name__ == "__main__":
