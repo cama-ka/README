@@ -1,1 +1,1 @@
-<b><h2>Nom du programme</h2></b><br><h3>Sous-titre</h3><br><br>Ceci est un résumé<br><br>Merci à : </br> l'Karla Camarena travaillant au sein de l'entreprise Intercorp.
+## Creer un readme facilement<br> ### Ne plus se préoccuper de la mise en page<br> <br>Ce programme propose à l'utilisateur de remplir un formulaire en suivant des instructions simples, créant un fichier readme.md automatiquement pour son application. <br>
