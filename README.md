@@ -1,18 +1,19 @@
 ## Nom du programme
 ### Sous titre
  Slogan
- Resume
+ Résumé
 
 ### Pré-requis 
-* Pre requis
+* Installer python3
 
 ### Programme
- Comment telecharger le programme
+ Comment télécharger le programme
 
-###Créer l'environnement virtuel 
- - Environnement virtuel
-####Télécharger le programme
- Lancer le programme
+###  Créer l'environnement virtuel 
+ - Créer environnmeet 
+
+####  Lancer le programme
+ Lancer le prog
 
 ### Auteurs 
-Karla Camarena. 
+Karla Cam. 
