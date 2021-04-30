@@ -43,17 +43,17 @@ def compte(titre,variable, func):
             
 def telecharger_prog():
     prog = input("Comment télécharger le programme : ").capitalize()
-    prog_f = (f"### Programme\n {prog}\n\n")
+    prog_f = (f"#### Télécharger le programme:\n {prog}\n\n")
     return prog_f
 
 def environnement_virtuel():
     env = input("Comment créer un environnement virtuel : ").capitalize()
-    prog_f = (f"###Créer l'environnement virtuel \n - {env}\n")
+    prog_f = (f"####  Créer l'environnement virtuel \n - {env} \n\n")
     return prog_f
 
 def lancement():
     lancer = input("Comment lancer le programme : ").capitalize()
-    lancer_f = (f"####Télécharger le programme\n {lancer}\n\n")
+    lancer_f = (f"####  Lancer le programme\n {lancer}\n\n")
     return lancer_f
 
 
@@ -61,11 +61,11 @@ def main():
     with open("README.md","w") as file:
         file.write(informations())
         file.close()
-    compte(f"### Pré-requis \n","de pré-requis", prerequis)
+    compte(f"#### Pré-requis \n","de pré-requis", prerequis)
     ecrire(telecharger_prog())
     ecrire(environnement_virtuel())
     ecrire(lancement())
-    compte(f"### Auteurs \n","d' auteurs", auteurs)
+    compte(f"##### Auteurs \n","d' auteurs", auteurs)
     print("Le fichier est terminé.")
             
 if __name__ == "__main__":
